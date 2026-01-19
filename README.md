@@ -23,23 +23,49 @@ Mosaic 是一个可被任何 Claude IDE 项目调用的**设计服务**。当你
 
 ## 如何使用
 
-### 方法 1：使用 Skill 命令（推荐⚡️）
+### 🚀 首次使用？请先安装
 
-Mosaic 现在支持作为 Claude Code Skill 使用！在任何项目中直接输入：
+Mosaic 是项目级别的 skill，需要在每个项目中安装。**选择一种方式**：
+
+#### 快速安装（推荐）
+```bash
+# 在你的项目目录下运行
+/Users/yukungao/github/ClaudeIDE-Mosaic/install-to-project.sh
+```
+
+#### 或者手动创建符号链接
+```bash
+mkdir -p .claude/skills
+ln -s /Users/yukungao/github/ClaudeIDE-Mosaic/.claude/skills/mosaic.md .claude/skills/mosaic.md
+```
+
+#### 或者直接调用（无需安装）
+```
+请读取 /Users/yukungao/github/ClaudeIDE-Mosaic/SYSTEM_PROMPT.md
+然后为这个项目提供设计服务
+```
+
+**📖 完整安装指南**: [INSTALL.md](./INSTALL.md)
+
+---
+
+### 安装后的使用
+
+#### 方法 1：使用 Skill 命令（推荐⚡️）
 
 ```bash
 /mosaic
 ```
 
-### 方法 2：自然语言调用
+#### 方法 2：自然语言调用
 
 ```
 帮我设计这个项目的UI
 我需要一套前端组件
-@mosaic 帮我做前端
+使用 Mosaic 为这个项目设计 UI
 ```
 
-### 方法 3：明确路径调用
+#### 方法 3：明确路径调用
 
 ```
 请阅读 /path/to/mosaic/SUMMON.md，帮我完成这个项目的UI设计。
