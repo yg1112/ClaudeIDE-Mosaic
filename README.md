@@ -2,6 +2,12 @@
 
 **一个住在文件夹里的设计总监 Agent**
 
+[![GitHub](https://img.shields.io/badge/GitHub-ClaudeIDE--Mosaic-blue?logo=github)](https://github.com/yg1112/ClaudeIDE-Mosaic)
+[![Tests](https://img.shields.io/badge/tests-21%20passed-brightgreen)](./logs/TEST_SUMMARY.md)
+[![Python](https://img.shields.io/badge/python-3.9%2B-blue?logo=python)](https://www.python.org/)
+[![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
+[![Version](https://img.shields.io/badge/version-v2.1-orange)](./CHANGELOG_v2.1.md)
+
 ---
 
 ## 这是什么？
